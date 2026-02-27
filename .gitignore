@@ -1,0 +1,31 @@
+###############
+# Node / React Native
+###############
+node_modules/
+.expo/
+dist/
+build/
+
+###############
+# Java / Spring Boot
+###############
+target/
+*.log
+*.class
+
+###############
+# Environment Files
+###############
+.env
+.env.local
+
+###############
+# Spring Config 
+###############
+backend/src/main/resources/application.properties
+
+###############
+# OS
+###############
+.DS_Store
+Thumbs.db
