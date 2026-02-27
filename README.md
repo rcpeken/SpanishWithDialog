@@ -12,19 +12,30 @@ An AI-powered mobile application that helps users learn Spanish through dynamica
 - **Device-Based Tracking** – No account required; your saved dialogues are tied to your device ID.
 - **A1-Level Spanish** – Content is calibrated for beginners with side-by-side Spanish, pronunciation, and English columns.
 
+<img width="365" height="811" alt="Ekran görüntüsü 2026-02-27 040840" src="https://github.com/user-attachments/assets/75ee6820-b098-4f7e-a279-3dc8cb2f0cd7" />
+<img width="365" height="803" alt="Ekran görüntüsü 2026-02-27 040858" src="https://github.com/user-attachments/assets/bf1ccd41-5f94-44e3-8937-7f52877d620c" />
+<img width="366" height="809" alt="Ekran görüntüsü 2026-02-27 040922" src="https://github.com/user-attachments/assets/0ab6c0d0-a1c0-46f2-aaa5-d7f92b57ffa4" />
+<img width="367" height="814" alt="Ekran görüntüsü 2026-02-27 041012" src="https://github.com/user-attachments/assets/4a5bdd39-d1be-4c9c-aa63-4b1086c20771" />
+
+
 ---
 
 ## Tech Stack
 
-### Backend
-| Technology | Version | Purpose |
-|---|---|---|
-| Java | 17 | Language |
-| Spring Boot | 3.2.5 | REST API framework |
-| Spring Data JPA | — | ORM / database access |
-| PostgreSQL | — | Persistent storage |
-| Google Gemini AI (`google-genai`) | 1.0.0 | Dialogue generation |
-| Lombok | 1.18.30 | Boilerplate reduction |
+| Technology                        | Version | Purpose                     |
+| --------------------------------- | ------- | --------------------------- |
+| Java                              | 17      | Language                    |
+| Spring Boot                       | 3.2.5   | REST API framework          |
+| Spring Data JPA                   | —       | ORM / database access       |
+| PostgreSQL                        | —       | Persistent storage          |
+| Google Gemini AI (`google-genai`) | 1.0.0   | Dialogue generation         |
+| Lombok                            | 1.18.30 | Boilerplate reduction       |
+| AWS EC2                           | —       | Server hosting / deployment |
+| Nginx Reverse Proxy               | —       | Routing / load balancing    |
+| Cloudflare DNS + SSL              | —       | DNS management & security   |
+| HTTPS (443)                       | —       | Secure communication        |
+| Custom domain                     | —       | Production URL              |
+
 
 ### Mobile
 | Technology | Version | Purpose |
